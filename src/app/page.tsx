@@ -5,6 +5,13 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
 
+/**
+ * Renders the authentication UI for user registration, login, and session management.
+ *
+ * Displays forms for creating a new user and logging in when no session exists. If a user is logged in, shows the user's name and a sign-out button.
+ *
+ * @remark Alerts are shown on authentication success or failure. User input is managed with local component state.
+ */
 export default function Home() {
   const { data: session } = authClient.useSession();
 
