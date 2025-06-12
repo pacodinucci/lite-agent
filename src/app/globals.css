@@ -53,7 +53,7 @@
   --popover-foreground: oklch(0.141 0.005 285.823);
   /* Primary color (e.g. buttons) */
   /* --primary: oklch(0.21 0.006 285.885); */
-  --primary: #2543eb;
+  --primary: #4a45eb;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.967 0.001 286.375);
   --secondary-foreground: oklch(0.21 0.006 285.885);
